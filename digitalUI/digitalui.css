@@ -1,0 +1,29 @@
+@import url('font.css');
+:root {
+  --main-text-color: #676767;
+}
+
+body {
+  font-family: proxima-nova, "proxima nova", "helvetica neue", helvetica, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  width: 100%;
+  word-break: break-all;
+  color: #444;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
